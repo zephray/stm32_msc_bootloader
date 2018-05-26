@@ -1,0 +1,114 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-738649503
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=1
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[JLinkDriver]
+CStepIntDis=_ 0
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[CodeCoverage]
+Enabled=_ 0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\nbzwt\Documents\STM32\STN\CMSIS\core_cm3.h" ""
+A1=_ "C:\Users\nbzwt\Documents\STM32\STN\CMSIS\system_stm32f10x.c" ""
+A2=_ "C:\Users\nbzwt\Documents\STM32\STN\beep_pwm.c" ""
+A3=_ "C:\Users\nbzwt\Documents\STM32\STN\calendar.c" ""
+A4=_ "C:\Users\nbzwt\Documents\STM32\STN\delay.c" ""
+A5=_ "C:\Users\nbzwt\Documents\STM32\STN\gpio.c" ""
+A6=_ "C:\Users\nbzwt\Documents\STM32\STN\key.c" ""
+A7=_ "C:\Users\nbzwt\Documents\STM32\STN\main.c" ""
+A8=_ "C:\Users\nbzwt\Documents\STM32\STN\rtc.c" ""
+A9=_ "C:\Users\nbzwt\Documents\STM32\STN\stm32f10x_it.c" "C:\Users\Administrator\Documents\STM32\SW\STM32Clock\stm32f10x_it.c"
+Count=10
+SuppressDialog=0
