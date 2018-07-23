@@ -314,7 +314,7 @@ uint32_t FAT_DataSectorWriteRequest(uint32_t FAT_LBA,uint8_t* data, uint32_t len
         if(freeflash >= FileAttr.DIR_FileSize)
         {
             // Flash MCU
-            STMFLASH_Write(FLASH_START_ADDR + FAT_LBA - 0x12000,(u16*)data, len/2);
+            STMFLASH_Write(FLASH_START_ADDR + FAT_LBA - FileAttr.DIR_ClusLow * 8192,(u16*)data, len/2);
             *filesize_write += len;
             if(*filesize_write >= filesize_total)
             {
